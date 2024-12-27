@@ -7,7 +7,7 @@ import java.util.List;
 public interface InventoryService {
 
     //Below are examples of Method Overloading
-    public Item addItem(Item item);
+    //public Item addItem(Item item);
 
     public Item addItem(List<Item> item);
 
@@ -23,4 +23,7 @@ public interface InventoryService {
     public Item searchItem(String itemName, String color);
 
     public Item searchItem(String itemName, String color, double price);
+
+    //Just for example to Override tricky scenario
+    public A addItem(Item item);
 }

@@ -8,7 +8,12 @@ public class InventoryServiceImpl implements InventoryService {
 
 
     @Override
-    public Item addItem(Item item) {
+//    public Item addItem(Item item) {
+//        return null;
+//    }
+
+    //Interview example to Override tricky scenario -> Using Child class return type in Impl, even when Parent class A is defined as return type in interface
+    public B addItem(Item item){
         return null;
     }
 
@@ -46,4 +51,5 @@ public class InventoryServiceImpl implements InventoryService {
     public Item searchItem(String itemName, String color, double price) {
         return null;
     }
+
 }
