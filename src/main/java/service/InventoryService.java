@@ -17,6 +17,7 @@ public interface InventoryService {
 
     public Item searchItem(int itemId);
 
+    //We can consider below 3 methods as OVERLOADED Method
     public Item searchItem(String itemName);
 
     public Item searchItem(String itemName, String color);
